@@ -83,7 +83,7 @@ body.home{
 
 .home__section__product--show{
     background-color: var(--colorGrisOscuro);
-    margin: 10px 0;
+    margin: 10px 5px;
     padding: 8px;
     display: inline-block;
 }
