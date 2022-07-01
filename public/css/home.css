@@ -90,7 +90,7 @@ body.home{
 /* Footer */
 
 .home__footer__menu ul li{
-    background-color: red;
+    background-color: var(--colorRojo);
     margin-bottom: 1px;
     padding: 8px 0 ;
     text-align: center;
