@@ -30,13 +30,15 @@ body.home{
 }
 
 /* Main */
+.home_main{
+    padding: 0 10px;
+}
 
 .home__section--banner img{
     display: none;
 }
 .home__section--products{
     margin-top: 30px;
-    padding: 0 10px;
 }
 
 .home__section__product{
@@ -100,4 +102,23 @@ body.home{
 .home__header__menu li a{
     text-transform: uppercase;
     
+}
+
+/* MEDIA QUERY | TABLET | 768px */
+@media (min-width: 768px){
+    /* Header */
+    .home__header button{
+        display: none;
+    }
+    .home__header__menu ul li{
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        padding: 16px 0;
+    }
+    .home__section--banner img{
+        display: inline-block;
+        width: 100%;
+        padding-top: 10px;
+    }
 }
